@@ -81,6 +81,11 @@
 						<input type="checkbox" data-property="scrollToMyPost" <!-- IF settings.scrollToMyPost -->checked<!-- ENDIF settings.scrollToMyPost -->/> <strong>[[user:scroll_to_my_post]]</strong>
 					</label>
 				</div>
+                <div class="checkbox">
+                	<label>
+                		<input type="checkbox" data-property="showSignature" <!-- IF settings.showSignature -->checked<!-- ENDIF settings.showSignature -->/> <strong>[[user:show_signature]]</strong>
+                	</label>
+                </div>
 			</div>
 
 			<h4>[[global:pagination]]</h4>

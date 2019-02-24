@@ -20,7 +20,7 @@ library.addAdminNavigation = function(header, callback) {
 	header.plugins.push({
 		route: '/plugins/persona',
 		icon: 'fa-paint-brush',
-		name: 'Persona Theme'
+		name: 'ioBroker Theme'
 	});
 
 	callback(null, header);
