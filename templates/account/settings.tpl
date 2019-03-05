@@ -114,16 +114,9 @@
 			<h4>{customSettings.title}</h4>
 			<div class="well">
 				{customSettings.content}
-			</div>
 			<!-- END customSettings -->
 
-            <div class="well">
-            	<div class="checkbox">
-            		<label>
-            			<input type="checkbox" data-property="showSignatures" <!-- IF settings.showSignatures -->checked<!-- ENDIF settings.showSignatures -->> <strong>[[persona:show-signatures]]</strong>
-            		</label>
-            	</div>
-            </div>
+
 
 		</div>
 
