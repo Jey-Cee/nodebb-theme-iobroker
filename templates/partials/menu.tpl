@@ -82,7 +82,13 @@
 								</a>
 							</li>
 							<li role="presentation" class="divider"></li>
-                                    <li><a href="{config.relative_path}/user/{userslug}/bookmarks">[[user:bookmarks]]</a></li>
+                                    <li><a href="{config.relative_path}/user/{userslug}/topics"><i class="fa fa-circle-o"></i> [[global:topics]]</a></li>
+                                    <li><a href="{config.relative_path}/user/{userslug}/posts"><i class="fa fa-circle-o"></i> [[global:posts]]</a></li>
+							<li role="presentation" class="divider"></li>
+                                    <li><a href="{config.relative_path}/user/{user.userslug}/bookmarks"><i class="fa fa-bookmark-o"></i> [[user:bookmarks]]</a></li>
+                                    <li><a href="{config.relative_path}/user/{userslug}/watched"><i class="fa fa-eye-o"></i> [[user:watched]]</a></li>
+                                    <li><a href="{config.relative_path}/user/{userslug}/categories"><i class="fa fa-list"></i> [[user:watched_categories]]</a></li>
+                                    <li><a href="{config.relative_path}/user/{userslug}/following"><i class="fa fa-user-o"></i> [[user:following]]</a></li>
 							<li role="presentation" class="divider"></li>
 							<li>
 								<a href="#" class="user-status" data-status="online">
