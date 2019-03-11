@@ -3,7 +3,7 @@
 <head>
 	<title>{browserTitle}</title>
 	<!-- BEGIN metaTags -->{function.buildMetaTag}<!-- END metaTags -->
-	<link rel="stylesheet" type="text/css" href="{relative_path}/assets/client<!-- IF bootswatchSkin -->-{bootswatchSkin}<!-- END -->.css?{config.cache-buster}" />
+
 	<!-- BEGIN linkTags -->{function.buildLinkTag}<!-- END linkTags -->
 
 	<script>
@@ -23,7 +23,7 @@
 	<!-- END -->
 </head>
 
-<body class="{bodyClass} skin-<!-- IF bootswatchSkin -->{bootswatchSkin}<!-- ELSE -->noskin<!-- END -->">
+<body class="{bodyClass} skin-<!-- IF iobrokerSkin -->{iobrokerSkin}<!-- ELSE -->noskin<!-- END -->">
 	<nav id="menu" class="slideout-menu hidden">
 		<!-- IMPORT partials/slideout-menu.tpl -->
 	</nav>

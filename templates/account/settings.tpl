@@ -6,10 +6,12 @@
 			<!-- IF !disableCustomUserSkins -->
 			<h4>[[user:select-skin]]</h4>
 			<div class="well">
-				<select class="form-control" id="bootswatchSkin" data-property="bootswatchSkin">
-					<!-- BEGIN bootswatchSkinOptions -->
-					<option value="{bootswatchSkinOptions.value}" <!-- IF bootswatchSkinOptions.selected -->selected<!-- ENDIF bootswatchSkinOptions.selected -->>{bootswatchSkinOptions.name}</option>
-					<!-- END bootswatchSkinOptions -->
+				<select class="form-control" id="iobrokerSkin" data-property="iobrokerSkin">
+					<!-- BEGIN iobrokerSkinOptions -->
+					<option value="lightSkin" <!-- IF iobrokerSkinOptions.selected -->selected<!-- ENDIF iobrokerSkinOptions.selected -->>light</option>
+					<option value="darkSkin" <!-- IF iobrokerSkinOptions.selected -->selected<!-- ENDIF iobrokerSkinOptions.selected -->>dark</option>
+					<option value="haterSkin" <!-- IF iobrokerSkinOptions.selected -->selected<!-- ENDIF iobrokerSkinOptions.selected -->>for the haters</option>
+					<!-- END iobrokerSkinOptions -->
 				</select>
 			</div>
 			<!-- ENDIF !disableCustomUserSkins -->
