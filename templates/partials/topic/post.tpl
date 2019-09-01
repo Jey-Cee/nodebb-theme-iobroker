@@ -50,7 +50,7 @@
 
 <div class="clearfix post-footer">
 	<!-- IF posts.user.signature -->
-	<div component="post/signature" data-uid="{posts.user.uid}" class="post-signature">{posts.user.signature}</div>
+	<div component="post/signature" data-uid="{posts.user.uid}" class="post-signature <!-- IF persona:posts:signatures -->hidden<!-- ENDIF persona:posts:signatures -->">{posts.user.signature}</div>
 	<!-- ENDIF posts.user.signature -->
 
 	<small class="pull-right">

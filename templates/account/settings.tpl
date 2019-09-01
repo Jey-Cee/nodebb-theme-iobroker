@@ -83,6 +83,12 @@
 				</div>
 			</div>
 
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" data-property="showSignature" <!-- IF settings.showSignature -->checked<!-- ENDIF settings.showSignature -->/> <strong>[[user:show_signature]]</strong>
+                </label>
+            </div>
+
 			<h4>[[global:pagination]]</h4>
 			<div class="well">
 				<div class="checkbox">
