@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-theme-persona",
+	"id": "nodebb-theme-iobroker",
 	"hooks": [
 		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" },
 		{ "hook": "filter:config.get", "method": "getThemeConfig" },

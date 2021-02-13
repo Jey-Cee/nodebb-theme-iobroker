@@ -10,7 +10,7 @@
 
 .navbar {
   position: relative;
-  min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: @navbar-margin-bottom;
   border: 1px solid transparent;
 
@@ -150,6 +150,9 @@
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 50px;
+
 }
 .navbar-fixed-bottom {
   bottom: 0;

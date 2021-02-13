@@ -1,7 +1,7 @@
-Persona theme for NodeBB
+ioBroker theme for NodeBB
 ====================
 
-Persona is the new default theme for NodeBB as of v0.7.1
+This theme is based on Persona and modified for forum.iobroker.net
 
 ## Addons
 

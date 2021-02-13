@@ -12,8 +12,10 @@
 @gray-dark:              lighten(@gray-base, 20%);   // #333
 @gray:                   lighten(@gray-base, 33.5%); // #555
 @gray-light:             #6c757d;
+@iobroker-gray:          #e4e4e4;
 @gray-lighter:           #eee;
 
+@iobroker-blue:         #1b4777;
 @brand-primary:         darken(#428bca, 6.5%); // #337ab7
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
@@ -332,17 +334,17 @@
 //## Define the maximum width of `.container` for different screen sizes.
 
 // Small screen / tablet
-@container-tablet:             (720px + @grid-gutter-width);
+@container-tablet:             (90vw);
 //** For `@screen-sm-min` and up.
 @container-sm:                 @container-tablet;
 
 // Medium screen / desktop
-@container-desktop:            (940px + @grid-gutter-width);
+@container-desktop:            (90vw);
 //** For `@screen-md-min` and up.
 @container-md:                 @container-desktop;
 
 // Large screen / wide desktop
-@container-large-desktop:      (1140px + @grid-gutter-width);
+@container-large-desktop:      (85vw);
 //** For `@screen-lg-min` and up.
 @container-lg:                 @container-large-desktop;
 
@@ -359,12 +361,12 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             #333;
-@navbar-default-bg:                white;
+@navbar-default-color:             @iobroker-blue;
+@navbar-default-bg:                @iobroker-gray;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
-@navbar-default-link-color:                #666;
+@navbar-default-link-color:                @iobroker-blue;
 @navbar-default-link-hover-color:          #333;
 @navbar-default-link-hover-bg:             transparent;
 @navbar-default-link-active-color:         #555;

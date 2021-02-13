@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
-  "version": "10.5.10",
+  "name": "nodebb-theme-iobroker",
+  "version": "1.1.0",
   "nbbpm": {
-    "compatibility": "^1.17.0"
+    "compatibility": "^1.16.2"
   },
-  "description": "Persona theme for NodeBB",
-  "main": "library.js",
+  "description": "ioBroker theme for NodeBB",
+  "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/jey-cee/nodebb-theme-iobroker"
   },
   "keywords": [
     "nodebb",
@@ -32,11 +32,16 @@
       "name": "Barış Soner Uşaklı",
       "email": "baris@designcreateplay.com",
       "url": "https://github.com/barisusakli"
+    },
+    {
+      "name": "Jey Cee",
+      "email": "jey-cee@live.com",
+      "url": "https://github.com/jey-cee"
     }
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+    "url": "https://github.com/jey-cee/nodebb-theme-iobroker/issues"
   },
   "dependencies": {
     "pulling": "^2.0.0",

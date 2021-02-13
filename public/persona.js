@@ -342,7 +342,20 @@ $(document).ready(function () {
 									}
 								});
 						});
-					})
+						translator.translate('[[persona:show-signatures]]', function(translated){
+							$('<div class="well checkbox"><label><input type="checkbox" id="showSignatures"/><strong>' + translated + '</strong></label></div>')
+								.appendTo('#content .account > .row > div:first-child')
+								.find('input')
+								.prop('checked', Storage.getItem('showSignatures', 'true'))
+								.change(function (e) {
+									if (e.target.checked) {
+										Storage.setItem('showSignatures', 'true');
+									} else {
+										Storage.removeItem('showSignatures', 'false');
+									}
+								});
+						});
+					});
 				}
 			}
 
@@ -473,3 +486,15 @@ $(document).ready(function () {
 		});
 	}
 });
+
+
+function showSignatures(){
+	require(['pulling', 'storage'], function (Pulling, Storage) {
+		var hideSig = !!Storage.getItem('showSignatures');
+		if (hideSig === false) {
+			$('.post-signature').addClass('hidden');
+		} else if (hideSig === true) {
+			$('.post-signature').removeClass('hidden');
+		}
+	});
+}
